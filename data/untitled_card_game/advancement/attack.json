@@ -4,9 +4,13 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "damage": {
-          "dealt": 4,
-          "source_entity": {
-            "type": "minecraft:player"
+          "dealt": {
+            "min": 4
+          },
+          "type": {
+            "direct_entity": {
+              "type": "player"
+            }
           }
         }
       }

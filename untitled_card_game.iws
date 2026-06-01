@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f02abe62-dfcd-417c-ac1d-1a067e31d5ca" name="Changes" comment="card energy now shows on the hotbar because it didnt work per player on the bossbar">
-      <change afterPath="$PROJECT_DIR$/data/untitled_card_game/card_energy_gain_normal.mcfunction" afterDir="false" />
+    <list default="true" id="f02abe62-dfcd-417c-ac1d-1a067e31d5ca" name="Changes" comment="you now gain card energy from dealing damage equal to 4 or more">
+      <change beforePath="$PROJECT_DIR$/data/untitled_card_game/advancement/attack.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/untitled_card_game/advancement/attack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/untitled_card_game/function/cards/test_cards/thunderbolt.mcfunction" beforeDir="false" afterPath="$PROJECT_DIR$/data/untitled_card_game/function/cards/test_cards/thunderbolt.mcfunction" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/untitled_card_game/function/cards/test_cards/tnt.mcfunction" beforeDir="false" afterPath="$PROJECT_DIR$/data/untitled_card_game/function/cards/test_cards/tnt.mcfunction" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled_card_game.iws" beforeDir="false" afterPath="$PROJECT_DIR$/untitled_card_game.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +50,8 @@
       <recent name="C:\Users\subze\AppData\Roaming\.minecraft\saves\untitled card stardance world\datapacks\untitled_card_game\data\untitled_card_game\function" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\subze\AppData\Roaming\.minecraft\saves\untitled card stardance world\datapacks\untitled_card_game\data\untitled_card_game\advancement" />
+      <recent name="C:\Users\subze\AppData\Roaming\.minecraft\saves\untitled card stardance world\datapacks\untitled_card_game\data\untitled_card_game\function" />
       <recent name="C:\Users\subze\AppData\Roaming\.minecraft\saves\untitled card stardance world\datapacks\untitled_card_game\data" />
     </key>
   </component>
@@ -105,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780297038191</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="you now gain card energy from dealing damage equal to 4 or more">
+      <option name="closed" value="true" />
+      <created>1780297329693</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1780297329693</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -114,6 +127,7 @@
     <MESSAGE value="added a load and tick file to run stuff on load etc" />
     <MESSAGE value="added a mana bar, made it so you cant overflow mana, added test spells, added a test spell system, added more variables for the mana bar, made the mana bar apply to players on their first login" />
     <MESSAGE value="card energy now shows on the hotbar because it didnt work per player on the bossbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="card energy now shows on the hotbar because it didnt work per player on the bossbar" />
+    <MESSAGE value="you now gain card energy from dealing damage equal to 4 or more" />
+    <option name="LAST_COMMIT_MESSAGE" value="you now gain card energy from dealing damage equal to 4 or more" />
   </component>
 </project>
