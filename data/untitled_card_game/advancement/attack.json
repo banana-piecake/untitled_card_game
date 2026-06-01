@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "attack": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "dealt": 4,
+          "source_entity": {
+            "type": "minecraft:player"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "untitled_card_game:card_energy_gain_normal"
+  }
+}

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f02abe62-dfcd-417c-ac1d-1a067e31d5ca" name="Changes" comment="added a mana bar, made it so you cant overflow mana, added test spells, added a test spell system, added more variables for the mana bar, made the mana bar apply to players on their first login">
-      <change beforePath="$PROJECT_DIR$/data/untitled_card_game/function/tick.mcfunction" beforeDir="false" afterPath="$PROJECT_DIR$/data/untitled_card_game/function/tick.mcfunction" afterDir="false" />
+    <list default="true" id="f02abe62-dfcd-417c-ac1d-1a067e31d5ca" name="Changes" comment="card energy now shows on the hotbar because it didnt work per player on the bossbar">
+      <change afterPath="$PROJECT_DIR$/data/untitled_card_game/card_energy_gain_normal.mcfunction" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780296755074</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="card energy now shows on the hotbar because it didnt work per player on the bossbar">
+      <option name="closed" value="true" />
+      <created>1780297038191</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1780297038191</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -105,6 +113,7 @@
     <MESSAGE value="added a hello world to test that intellij updates correctly (it does)" />
     <MESSAGE value="added a load and tick file to run stuff on load etc" />
     <MESSAGE value="added a mana bar, made it so you cant overflow mana, added test spells, added a test spell system, added more variables for the mana bar, made the mana bar apply to players on their first login" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a mana bar, made it so you cant overflow mana, added test spells, added a test spell system, added more variables for the mana bar, made the mana bar apply to players on their first login" />
+    <MESSAGE value="card energy now shows on the hotbar because it didnt work per player on the bossbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="card energy now shows on the hotbar because it didnt work per player on the bossbar" />
   </component>
 </project>
