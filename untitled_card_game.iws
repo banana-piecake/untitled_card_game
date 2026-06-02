@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f02abe62-dfcd-417c-ac1d-1a067e31d5ca" name="Changes" comment="added pass card ( for when you dont have any ) and darkness spell">
-      <change beforePath="$PROJECT_DIR$/data/untitled_card_game/function/cards/common/darkness.mcfunction" beforeDir="false" afterPath="$PROJECT_DIR$/data/untitled_card_game/function/cards/common/darkness.mcfunction" afterDir="false" />
+    <list default="true" id="f02abe62-dfcd-417c-ac1d-1a067e31d5ca" name="Changes" comment="darkness no longer self hits">
+      <change afterPath="$PROJECT_DIR$/data/untitled_card_game/advancement/test_deck.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/untitled_card_game/function/cards/card_detection/slot_1.mcfunction" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/untitled_card_game/function/cards/card_detection/slot_2.mcfunction" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/untitled_card_game/function/cards/card_detection/slot_3.mcfunction" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/untitled_card_game/function/cards/card_detection/slot_4.mcfunction" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/untitled_card_game/function/cards/card_detection/slot_5.mcfunction" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/untitled_card_game/function/cards/card_detection/slot_6.mcfunction" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/untitled_card_game/function/cards/card_detection/slot_7.mcfunction" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/untitled_card_game/function/cards/card_detection/slot_8.mcfunction" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/untitled_card_game/function/cards/card_detection/slot_9.mcfunction" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/untitled_card_game/function/cards/test_cards/deck_test.mcfunction" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/untitled_card_game/function/cards/test_cards/test_deck.mcfunction" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled_card_game.iws" beforeDir="false" afterPath="$PROJECT_DIR$/untitled_card_game.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +51,14 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/subze/AppData/Roaming/.minecraft/saves/untitled card stardance world/datapacks/untitled_card_game/data/untitled_card_game/function/cards/common"
+    "last_opened_file_path": "C:/Users/subze/AppData/Roaming/.minecraft/saves/untitled card stardance world/datapacks/untitled_card_game/data/untitled_card_game/function/cards/test_cards"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\subze\AppData\Roaming\.minecraft\saves\untitled card stardance world\datapacks\untitled_card_game\data\untitled_card_game\function\cards\common" />
       <recent name="C:\Users\subze\AppData\Roaming\.minecraft\saves\untitled card stardance world\datapacks\untitled_card_game\data\untitled_card_game\function\cards\test_cards" />
+      <recent name="C:\Users\subze\AppData\Roaming\.minecraft\saves\untitled card stardance world\datapacks\untitled_card_game\data\untitled_card_game\function\cards\card_detection" />
+      <recent name="C:\Users\subze\AppData\Roaming\.minecraft\saves\untitled card stardance world\datapacks\untitled_card_game\data\untitled_card_game\function\cards\common" />
       <recent name="C:\Users\subze\AppData\Roaming\.minecraft\saves\untitled card stardance world\datapacks\untitled_card_game\data\untitled_card_game\function" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -141,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780391405470</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="darkness no longer self hits">
+      <option name="closed" value="true" />
+      <created>1780391903198</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1780391903198</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -154,6 +175,7 @@
     <MESSAGE value="fixed attack spells, added card energy reqs to test spells" />
     <MESSAGE value="added heal card" />
     <MESSAGE value="added pass card ( for when you dont have any ) and darkness spell" />
-    <option name="LAST_COMMIT_MESSAGE" value="added pass card ( for when you dont have any ) and darkness spell" />
+    <MESSAGE value="darkness no longer self hits" />
+    <option name="LAST_COMMIT_MESSAGE" value="darkness no longer self hits" />
   </component>
 </project>

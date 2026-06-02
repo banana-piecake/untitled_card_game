@@ -1,0 +1,1 @@
+give @s echo_shard[item_model="book",consumable={animation:"trident"},custom_data={test:"deck"},use_cooldown={seconds:1s,cooldown_group:"test_deck"}] 1

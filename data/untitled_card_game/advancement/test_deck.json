@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "test_deck": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "test": "deck"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "untitled_card_game:cards/test_cards/deck_test"
+  }
+}
